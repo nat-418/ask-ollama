@@ -17,10 +17,11 @@ This tool uses the [LangChain] framework for JavaScript.
 
 To hack on the project, follow these steps:
 
-1. Install [Node.js]
-2. Clone this repository
-3. Run `$ npm install` from inside this repository
-4. Edit `ask-ollama.js`
+1. Setup Ollama (see the Docker Compose file in this repo)
+2. Install [Node.js]
+3. Clone this repository
+4. Run `$ npm install` from inside this repository
+5. Edit `ask-ollama.js`
 
 [retrieval-automated generation]: https://research.ibm.com/blog/retrieval-augmented-generation-RAG
 [Ollama]: https://ollama.ai
