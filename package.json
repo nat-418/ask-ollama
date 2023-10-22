@@ -1,0 +1,14 @@
+{
+  "name": "ask-ollama",
+  "bin": {
+	  "ask-ollama": "./ask-ollama.js"
+  },
+  "type": "module",
+  "dependencies": {
+    "@xenova/transformers": "^2.6.2",
+    "cheerio": "^1.0.0-rc.12",
+    "hnswlib-node": "^1.4.2",
+    "langchain": "^0.0.169",
+    "meow": "^12.1.1"
+  }
+}
