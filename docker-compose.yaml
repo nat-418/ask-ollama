@@ -1,0 +1,19 @@
+version: "3"
+name: "ollama"
+services:
+  backend:
+    image: ollama/ollama
+    environment:
+      - OLLAMA_ORIGINS=*
+    ports:
+      - 11434:11434
+    volumes:
+      - ./data:/root/.ollama
+
+  frontend:
+    build: .
+    ports:
+      - "80:8080"
+    depends_on:
+      - backend
+
