@@ -15,6 +15,19 @@ the Docker steps in the Development section of this README to get
 started and install some models. This also provides a ChatGPT-style
 web UI without this project's RAG capabilities for testing.
 
+```bash
+
+  Usage
+    $ ask-ollama <question> <url>
+
+  Options
+    --model, -m  Specify model (defaults to llama2)
+
+  Examples
+    $ ask-ollama 'What time is it now in Paris?' 'https://www.timeanddate.com/worldclock/france/paris'
+
+```
+
 ## Development
 
 This tool uses the [LangChain] framework for JavaScript.
