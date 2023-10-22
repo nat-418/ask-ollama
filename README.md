@@ -26,3 +26,4 @@ To hack on the project, follow these steps:
 [Ollama]: https://ollama.ai
 [large language models]: https://ollama.ai/library
 [LangChain]: https://docs.langchain.com/docs/
+[Node.js]: https://nodejs.org/
